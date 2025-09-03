@@ -2,6 +2,7 @@ package br.com.mariojp.solid.srp;
 
 public class Item {
 	
+	
 	private String name;
 	private double unitPrice; 
 	private int quantity;
@@ -12,6 +13,7 @@ public class Item {
 		this.unitPrice = unitPrice;
 		this.quantity = quantity;
 	}
+	
 
 	public String getName() {
 		return name;
@@ -24,7 +26,6 @@ public class Item {
 	public int getQuantity() {
 		return quantity;
 	}
-	
 	
 	
 }
